@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+  -webkit-box-sizing: border-boxs;
+          box-sizing: border-boxs;
+  font-family: 'Outfit';
+  background: #d6e2f0;
+  overflow: hidden;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 22vh;
+}
+
+.Qr-scanner {
+  width: 19%;
+  height: 55vh;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.Qr-scanner .image img {
+  display: block;
+  margin: 5%;
+  border-radius: 20px;
+  width: 90%;
+}
+
+.Qr-scanner .text {
+  text-align: center;
+  margin: 6%;
+}
+
+.Qr-scanner .text .main {
+  font-weight: 700;
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  font-size: larger;
+}
+
+.Qr-scanner .text .detail {
+  display: block;
+  margin-left: 1%;
+  font-size: large;
+  margin-right: 1%;
+  color: #7b879d;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (max-width: 380px) {
+  .container {
+    margin-top: 12vh;
+  }
+  .Qr-scanner {
+    height: 66vh;
+    width: 74%;
+  }
+  .image {
+    margin-bottom: 8%;
+  }
+  .main {
+    margin-bottom: 8%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    margin-top: 20vh;
+  }
+  .Qr-scanner {
+    height: 54vh;
+    width: 80%;
+  }
+  .image {
+    margin-bottom: 8%;
+  }
+  .main {
+    margin-bottom: 8%;
+  }
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .container {
+    margin-top: 15vh;
+  }
+  .Qr-scanner {
+    height: 55vh;
+    width: 81%;
+  }
+  .image {
+    margin-bottom: 8%;
+  }
+  .main {
+    margin-bottom: 8%;
+  }
+}
+
+@media screen and (max-device-width: 375px) and (orientation: portrait) {
+  .container {
+    margin-top: 15vh;
+  }
+  .Qr-scanner {
+    height: 64vh;
+    width: 71%;
+  }
+  .image {
+    margin-bottom: 8%;
+  }
+  .main {
+    margin-bottom: 8%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .container {
+    margin-top: 20vh;
+  }
+  .Qr-scanner {
+    height: 46vh;
+    width: 46%;
+  }
+  .image {
+    margin-bottom: 8%;
+  }
+  .main {
+    margin-bottom: 8%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
